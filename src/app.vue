@@ -1,10 +1,13 @@
-<template lang="jade">
-div
-  img(class="logo", src="./assets/logo.png")
-  h1 {{msg}}
-  comp-a
-  comp-b
-  counter
+<style src="./style.css"></style>
+
+<template>
+  <div>
+    <img class="logo" src="./assets/logo.png" />
+    <h1> {{msg}} </h1>
+    <comp-b></comp-b>
+    <comp-a></comp-a>
+    <counter></counter>
+  </div>
 </template>
 
 <script>
@@ -25,15 +28,3 @@ export default {
   }
 }
 </script>
-
-<style lang="stylus">
-font-stack = Helvetica, sans-serif
-primary-color = #999
-body
-  font 100% font-stack
-  color primary-color
-
-.logo
-  width 40px
-  height 40px
-</style>

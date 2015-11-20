@@ -1,0 +1,23 @@
+body{
+  font: 100% Helvetica, sans-serif;
+  color: #999;
+}
+
+.logo{
+  width: 40px;
+  height: 40px;
+}
+
+.ca .container {
+  border: 1px solid #00f;
+}
+.ca .red {
+  color: #f00;
+}
+
+.cb .container {
+  border: 1px solid #f00;
+}
+.cb h2 {
+  color: #393;
+}
